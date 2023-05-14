@@ -26,5 +26,5 @@ test('Respone body should contain "ok" to be "true"', async () => {
 	} catch (error) {
 		console.error(error);
 	}
-	expect(actualResponseBody.ok).toBe("true");
+	expect(actualResponseBody.oK).toBe("true");
 });
