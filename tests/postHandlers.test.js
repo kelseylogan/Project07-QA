@@ -24,7 +24,7 @@ expect(actualStatusCode).toBe(201);
 });
 
 
-test('Response body should contain the name as Kelsey', async () => {
+test('Response body should contain "name" as "Kelsey"', async () => {
 let actualResponseBody;
 try {
 	const response = await fetch(`${config.API_URL}/api/v1/kits`, {

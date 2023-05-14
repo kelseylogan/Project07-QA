@@ -13,7 +13,7 @@ test('Should return 200 status code', async () => {
 });
 
 
-test('Body should contain the name as Potato Chips - Paprika', async () => {
+test('Body should contain "name" as "Potato Chips - Paprika"', async () => {
 	let actualResponseBody;
 	try {
 		const response = await fetch(`${config.API_URL}/api/v1/products/8`);
