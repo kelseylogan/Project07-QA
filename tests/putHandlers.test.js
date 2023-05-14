@@ -38,7 +38,7 @@ test('Response body should contain "deliveryPrice" as 0', async () => {
 			},
 			body: JSON.stringify(requestBody)
 		});
-		actualactualResponseBody = await response.json();
+		actualResponseBody = await response.json();
 	} catch (error) {
 		console.error(error);
 	}
