@@ -20,6 +20,10 @@ test('Respone body should contain "ok" to be "true"', async () => {
     try {
 		const response = await fetch(`${config.API_URL}/api/v1/orders/2`, {
 			method: 'DELETE',
+			headers: {
+				'Content-Type': 'application/json'
+				},
+				body: JSON.stringify(requestBody)
 		});
 		actualResponseBody = await response.json();
 	} catch (error) {
