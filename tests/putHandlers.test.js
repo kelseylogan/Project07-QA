@@ -7,7 +7,7 @@ const requestBody = {
 		"id": 4,
 		"quantity": 3
 		}
-	  ]
+	]
   }
 
 test('Should return 200 status code', async () => {
