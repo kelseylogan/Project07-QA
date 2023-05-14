@@ -4,10 +4,10 @@ const config = require('../config');
 const requestBody = {
 	"productsList": [
 		{
-		  "id": 4,
-		  "quantity": 3
+		"id": 4,
+		"quantity": 3
 		}
-	  ]
+	]
   }
 
 test('Should return 200 status code', async () => {

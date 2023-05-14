@@ -6,6 +6,10 @@ test('Should return 200 response code', async () => {
     try {
 		const response = await fetch(`${config.API_URL}/api/v1/orders/2`, {
 			method: 'DELETE',
+			headers: {
+				'Content-Type': 'application/json'
+				},
+				body: JSON.stringify(requestBody)
 		});
 		actualStatusCode = response.status;
 	} catch (error) {
