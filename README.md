@@ -1,8 +1,7 @@
 # Project 7 - Tests for GET, POST, PUT, and DELETE for Urban Grocers
 * Documentation source - Swagger/apiDoc
 * Tech used - Node.js, Jest, VSCode, Postman
-* Use the grocery order number created in the PUT test in the DELETE test.
-* There is a known bug with the DELETE request, as the server does not recognize an already existing order number to delete.
+
 ##   To clone the repository to your local computer:
 * Open your preferred terminal emulator.
 * Clone the repository to your local computer:
@@ -21,5 +20,15 @@
 *       Check the response status code.
 *       Check that the response body returns the expected data.
 * POST
+*       Check the response status code.
+*       Check that the response body returns the expected data.
+*       Using apiDocs or Swagger, determine what input is needed to run the selected POST request, and include it at the beginning of the test suite using const requestBody = {}
 * PUT
+*       Check the response status code.
+*       Check that the response body returns the expected data.
+*       Using apiDocs or Swagger, determine what input is needed to run the selected POST request, and include it at the beginning of the test suite using const requestBody = {}
 * DELETE
+*       Check the response status code.
+*       Check that the response body returns the expected data.
+*       Use the grocery order number created in the PUT test in the DELETE test.
+*       There is a known bug with the DELETE request, as the server does not recognize an already existing order number to delete.
