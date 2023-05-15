@@ -18,6 +18,8 @@
 * In *config.js*, replace the API URL with the unique link generated after the launch of Urban Grocers server.
 ## How to run each test suite
 * GET
+*       Check the response status code.
+*       Check that the response body returns the expected data.
 * POST
 * PUT
 * DELETE
